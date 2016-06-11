@@ -4,7 +4,7 @@
 
 	class server_info {
 	
-		public static function infohouse_css_styles() {
+		public function infohouse_css_styles() {
 		
 		echo '<style>';
 		
@@ -14,13 +14,13 @@
 		 
 		}
 	
-		public static function servinfo_admin_actions() {
+		public function servinfo_admin_actions() {
 			
 			add_menu_page('Server Info', 'Server Info', 'administrator', 'server_info_display', array('server_info', 'display_infohouse_page'));
 			
 		}
 	
-		public static function display_infohouse_page()
+		public function display_infohouse_page()
 		{
 			global $wpdb;
 			?>
@@ -105,6 +105,12 @@
 				
 				<tr>
 				
+				<td><h5>MySQL Client Version:</h5></td>
+				
+				<td><p><?php echo mysql_get_client_info(); ?></p></td>
+				
+				</tr>
+				
 				<tr class="gray">
 				
 				<td><h5>CGI Version:</h5></td>
@@ -120,14 +126,6 @@
 				<td><p><?php echo exec("uptime", $system); ?></p></td>
 				
 				</tr>
-
-				<tr>
-				
-				<td><h5>WordPress Memory Limit:</h5></td>
-				
-				<td><p><?php echo WP_MEMORY_LIMIT; ?></p></td>
-				
-				</tr>
 				
 				</table>
 				
@@ -138,7 +136,7 @@
 			<?php
 		}
 		
-		public static function server_info_add_dashboard_widgets() {
+		public function server_info_add_dashboard_widgets() {
 
 		wp_add_dashboard_widget(
 					 'serverinfo_dashboard_widget',
