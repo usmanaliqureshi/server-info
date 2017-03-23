@@ -16,7 +16,7 @@
 	
 		public static function servinfo_admin_actions() {
 			
-			add_menu_page('Server Info', 'Server Info', 'administrator', 'server_info_display', array('server_info', 'display_infohouse_page'));
+			add_menu_page('Server Info', 'Server Info', 'administrator', 'server_info_display', array('server_info', 'display_infohouse_page'), 'dashicons-welcome-widgets-menus');
 			
 		}
 	
