@@ -147,7 +147,7 @@
 			);
 		}
 		
-		public function server_info_dashboard_widget() { ?>
+		public static function server_info_dashboard_widget() { ?>
 
 				<table class="table infohouse_table dashboard_inf_table">
 				
