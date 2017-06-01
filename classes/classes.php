@@ -15,7 +15,19 @@ class server_info
     public static function servinfo_admin_actions()
     {
 
-        add_menu_page('Server Info', 'Server Info', 'administrator', 'server_info_display', array('server_info', 'display_infohouse_page'), 'dashicons-welcome-widgets-menus');
+        add_options_page(
+
+            'Server Information',
+
+            'Server Info',
+
+            'manage_options',
+
+            'server_info_display',
+
+            array('server_info', 'display_infohouse_page')
+
+        );
 
     }
 
