@@ -30,10 +30,10 @@ class server_info
 
         <div class="wrap">
 
-            <h2 class="infohouse_heading">Server Info</h2>
+            <h2 class="infohouse_heading">Server Information</h2>
 
-            <p>Server Info plugin shows you the general information about the hosting server your WordPress site is
-                currently hosted on. You can find this information helpful for many purposes.</p>
+            <p>Server Info plugin shows the general information about the hosting server your WordPress site is
+                currently hosted on. You can find this information helpful for many purposes like performance improvements and so on.</p>
 
             <br/>
 
@@ -42,6 +42,12 @@ class server_info
                 <div class="table-responsive">
 
                     <table class="table infohouse_table">
+
+                        <tr>
+
+                            <th colspan="2"><h3>Hosting Server Info</h3></th>
+
+                        </tr>
 
                         <tr>
 
@@ -103,8 +109,15 @@ class server_info
 
                             <td><h5>MySQL Version:</h5></td>
 
-                            <td><p><?php mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
-                                    echo mysql_get_server_info(); ?></p></td>
+                            <td>
+                                <p><?php
+
+                                    $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+                                    echo mysqli_get_server_info($connection); ?>
+
+                                </p>
+                            </td>
 
                         </tr>
 
@@ -123,6 +136,96 @@ class server_info
                             <td><p><?php echo exec("uptime", $system); ?></p></td>
 
                         </tr>
+
+                    </table>
+
+                    <table class="table infohouse_table">
+
+                        <tr>
+
+                            <th colspan="2"><h3>WordPress Info</h3></th>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><h5>WordPress Hostname:</h5></td>
+
+                            <td><?php echo DB_HOST; ?></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><h5>WordPress Username:</h5></td>
+
+                            <td><?php echo DB_USER; ?></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><h5>WordPress Database:</h5></td>
+
+                            <td><?php echo DB_NAME; ?></td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td><h5>Database Charset:</h5></td>
+
+                            <td><?php echo DB_CHARSET; ?></td>
+
+                        </tr>
+
+                        <?php
+
+                        $db_collate = DB_COLLATE;
+
+                        if (!empty($db_collate)) {
+
+                            ?>
+
+                            <tr>
+
+                                <td><h5>Database Collation:</h5></td>
+
+                                <td><?php echo DB_COLLATE; ?></td>
+
+                            </tr>
+
+                        <?php } ?>
+
+                        <?php
+
+                        $wp_debug = WP_DEBUG;
+
+                        if (!empty($wp_debug)) {
+
+                            ?>
+
+                            <tr>
+
+                                <td><h5>WordPress Debugging:</h5></td>
+
+                                <td><?php
+
+                                    if ($wp_debug = 1) {
+
+                                        echo "Enabled";
+
+                                    } else {
+
+                                        echo "Disabled";
+
+                                    }
+
+                                    ?></td>
+
+                            </tr>
+
+                        <?php } ?>
 
                         <tr>
 
