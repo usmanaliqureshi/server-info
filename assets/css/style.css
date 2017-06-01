@@ -18,6 +18,8 @@
 
 .infohouse_table {
 
+    width: 700px;
+
     border: 1px solid rgba(0, 0, 0, 0.08);
 
     margin: 0 auto 0 auto;
