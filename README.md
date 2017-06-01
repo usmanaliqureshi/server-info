@@ -11,7 +11,7 @@ This plugin will show you very useful information about your hosting server such
 
 == Description ==
 
-This plugin will show you very useful information about the hosting server you are using e.g. PHP version, MySQL version, Server OS, Server Protocol, Server IP and other useful information.
+This plugin will show you useful information about the hosting server you are using e.g. PHP version, MySQL version, Server OS, Server Protocol, Server IP and other useful information. You can use the information displayed by this plugin to update any settings which is crucial for your website performance and other aspects.
 
 You will see the information about:
 
