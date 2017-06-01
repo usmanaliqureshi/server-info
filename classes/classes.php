@@ -149,6 +149,20 @@ class server_info
 
                         <tr>
 
+                            <td><h5>Active Theme:</h5></td>
+
+                            <td><?php
+
+                                $active_theme = wp_get_theme();
+
+                                echo esc_html($active_theme->get('Name'));
+
+                                ?></td>
+
+                        </tr>
+
+                        <tr>
+
                             <td><h5>WordPress Hostname:</h5></td>
 
                             <td><?php echo DB_HOST; ?></td>
