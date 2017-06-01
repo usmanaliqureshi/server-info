@@ -8,11 +8,7 @@ class server_info
     public static function infohouse_css_styles()
     {
 
-        echo '<style>';
-
-        include_once PLUGIN_DIR . 'assets/css/style.css';
-
-        echo '</style>';
+        wp_enqueue_style( 'style-name', get_bloginfo('url') . '/wp-content/plugins/server-info/assets/css/style.css' );
 
     }
 
@@ -28,7 +24,7 @@ class server_info
         global $wpdb;
         ?>
 
-        <div class="wrap">
+        <div class="wrap server-info">
 
             <h2 class="infohouse_heading">Server Information</h2>
 

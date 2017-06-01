@@ -1,10 +1,24 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 .infohouse_heading {
 
-    font-family: "Lato", sans-serif;
+    font-family: 'Varela Round', sans-serif;
 
     font-size: 29px !important;
+
+    text-transform: uppercase;
+
+}
+
+.server-info p {
+
+    font-weight: 300;
+
+    font-size: 15px;
+
+    color: #000;
+    
+    text-shadow: 2px 2px 2px #ecebeb;
 
 }
 
@@ -12,7 +26,7 @@
 
     padding: 20px;
 
-    font-family: "Lato", sans-serif;
+    font-family: 'Varela Round', sans-serif;
 
 }
 
@@ -30,6 +44,18 @@
 
 }
 
+.infohouse_table tr th {
+
+    text-transform: uppercase;
+
+    margin: 0;
+
+    border: 1px solid rgba(195, 195, 195, 0.08);
+
+    text-align: center;
+
+}
+
 .infohouse_table tr td {
 
     padding: 0px 20px;
@@ -39,6 +65,8 @@
     border: 1px solid rgba(195, 195, 195, 0.08);
 
     text-align: center;
+
+    letter-spacing: 1px;
 
 }
 
@@ -62,7 +90,7 @@
 
     margin: 0;
 
-    font-family: 'Lato';
+    font-family: 'Varela Round', sans-serif;
 
     font-weight: 400;
 
