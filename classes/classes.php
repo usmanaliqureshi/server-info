@@ -163,6 +163,30 @@ class server_info
 
                         <tr>
 
+                            <td><h5>Active Plugins:</h5></td>
+
+                            <td><?php
+
+                                $active_plugins = get_option('active_plugins');
+
+                                echo '<ul>';
+
+                                foreach($active_plugins as $key => $value) {
+
+                                    $string = explode('/',$value);
+
+                                    echo '<li>'.$string[0] .'</li>';
+
+                                }
+
+                                echo '</ul>';
+
+                                ?></td>
+
+                        </tr>
+
+                        <tr>
+
                             <td><h5>WordPress Hostname:</h5></td>
 
                             <td><?php echo DB_HOST; ?></td>
