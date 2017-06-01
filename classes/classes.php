@@ -28,6 +28,8 @@ class server_info
 
             <h2 class="infohouse_heading">Server Information</h2>
 
+            <hr/>
+
             <p>Server Info plugin shows the general information about the hosting server your WordPress site is
                 currently hosted on. You can find this information helpful for many purposes like performance improvements and so on.</p>
 
@@ -117,7 +119,7 @@ class server_info
 
                         </tr>
 
-                        <tr class="gray">
+                        <tr>
 
                             <td><h5>CGI Version:</h5></td>
 
@@ -125,7 +127,7 @@ class server_info
 
                         </tr>
 
-                        <tr>
+                        <tr class="gray">
 
                             <td><h5>System Uptime:</h5></td>
 
@@ -157,7 +159,7 @@ class server_info
 
                         </tr>
 
-                        <tr>
+                        <tr class="gray">
 
                             <td><h5>Active Plugins:</h5></td>
 
@@ -189,7 +191,7 @@ class server_info
 
                         </tr>
 
-                        <tr>
+                        <tr class="gray">
 
                             <td><h5>WordPress Username:</h5></td>
 
@@ -205,7 +207,7 @@ class server_info
 
                         </tr>
 
-                        <tr>
+                        <tr class="gray">
 
                             <td><h5>Database Charset:</h5></td>
 
@@ -261,7 +263,7 @@ class server_info
 
                         <?php } ?>
 
-                        <tr>
+                        <tr class="gray">
 
                             <td><h5>WordPress Memory Limit:</h5></td>
 
