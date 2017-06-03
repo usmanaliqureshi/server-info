@@ -46,7 +46,7 @@
 
     margin-right: 20px;
 
-    margin-left: 10%;
+    margin-left: 6%;
 
 }
 
@@ -121,5 +121,9 @@
 .dashboard_inf_table {
 
     width: 100%;
+
+    margin: 0;
+
+    float: none;
 
 }

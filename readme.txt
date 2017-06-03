@@ -1,11 +1,11 @@
-=== Server Info ===<br>
-Contributors: usmanaliqureshi<br>
-Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database<br>
-Requires at least: 3.0<br>
-Tested up to: 4.7.5<br>
-Stable tag: 4.6<br>
-License: GPLv2 or later<br>
-License URI: http://www.gnu.org/licenses/gpl-2.0.html<br>
+=== Server Info ===
+Contributors: usmanaliqureshi
+Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database
+Requires at least: 3.0
+Tested up to: 4.7.5
+Stable tag: 4.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin will show you very useful information about your hosting server such as PHP version, Server OS, Server IP etc.
 
@@ -15,21 +15,21 @@ This plugin will show you useful information about the hosting server you are us
 
 You will see the information about:
 
-* PHP Version<br>
-* Operating System<br>
-* Server IP<br>
-* Server Hostname<br>
-* MySQL Version<br>
-* System Uptime<br>
-* Active Theme<br>
-* Active Plugins<br>
-* Database Name<br>
-* Database Username<br>
-* Database Hostname<br>
-* Database Charset<br>
-* Database Collate<br>
-* WordPress Debugging (Enabled/Disabled)<br>
-* WordPress Memory Limit<br>
+* PHP Version
+* Operating System
+* Server IP
+* Server Hostname
+* MySQL Version
+* System Uptime
+* Active Theme
+* Active Plugins
+* Database Name
+* Database Username
+* Database Hostname
+* Database Charset
+* Database Collate
+* WordPress Debugging (Enabled/Disabled)
+* WordPress Memory Limit
 
 Please rate the Plugin if you find it useful, thanks.
 
@@ -37,11 +37,11 @@ Please rate the Plugin if you find it useful, thanks.
 
 Instructions for installing the Server Info Plugin.
 
-1. In your WordPress admin go to Plugins -> Add New.<br>
-2. Enter Server Info in the text box and click Search Plugins.<br>
-3. In the list of Plugins click Install Now next to the Server Info Plugin.<br>
-4. Once installed click to activate.<br>
-5. Now go to your WordPress dashboard and you will have a new menu option called Server Info.<br>
+1. In your WordPress admin go to Plugins -> Add New.
+2. Enter Server Info in the text box and click Search Plugins.
+3. In the list of Plugins click Install Now next to the Server Info Plugin.
+4. Once installed click to activate.
+5. Now go to your WordPress dashboard and you will have a new menu option called Server Info.
 
 == Frequently Asked Questions ==
 
