@@ -352,7 +352,7 @@ class server_info
             <tr>
 
                 <td colspan="2" class="view-more-info"><a class="button button-primary"
-                                                          href="<?php echo admin_url('admin.php?page=server_info_display'); ?>"
+                                                          href="<?php echo admin_url('options-general.php?page=server_info_display'); ?>"
                                                           ?>View More Information</a></td>
 
             </tr>
