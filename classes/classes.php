@@ -139,13 +139,21 @@ class server_info
 
                         </tr>
 
+                        <?php $uptime = exec("uptime", $system);
+
+                        if (!empty($uptime)) {
+
+                        ?>
+
                         <tr class="gray">
 
                             <td><h5>System Uptime:</h5></td>
 
-                            <td><p><?php echo exec("uptime", $system); ?></p></td>
+                            <td><p><?php echo $uptime; ?></p></td>
 
                         </tr>
+
+                        <?php } ?>
 
                     </table>
 
@@ -197,7 +205,7 @@ class server_info
 
                         <tr>
 
-                            <td><h5>WordPress Hostname:</h5></td>
+                            <td><h5>Database Hostname:</h5></td>
 
                             <td><?php echo DB_HOST; ?></td>
 
@@ -205,7 +213,7 @@ class server_info
 
                         <tr class="gray">
 
-                            <td><h5>WordPress Username:</h5></td>
+                            <td><h5>Database Username:</h5></td>
 
                             <td><?php echo DB_USER; ?></td>
 
@@ -213,7 +221,7 @@ class server_info
 
                         <tr>
 
-                            <td><h5>WordPress Database:</h5></td>
+                            <td><h5>Database Name:</h5></td>
 
                             <td><?php echo DB_NAME; ?></td>
 
