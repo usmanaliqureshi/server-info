@@ -2,7 +2,7 @@
 Contributors: usmanaliqureshi<br>
 Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database<br>
 Requires at least: 3.0<br>
-Tested up to: 4.7.5<br>
+Tested up to: 4.8<br>
 Stable tag: 4.6<br>
 License: GPLv2 or later<br>
 License URI: http://www.gnu.org/licenses/gpl-2.0.html<br>
