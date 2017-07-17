@@ -36,6 +36,8 @@
 
 .infohouse_table {
 
+    width: 43%;
+
     border: 1px solid rgba(0, 0, 0, 0.08);
 
     background-color: #fff;
@@ -46,7 +48,7 @@
 
     margin-right: 20px;
 
-    margin-left: 6%;
+    margin-left: 3%;
 
 }
 
