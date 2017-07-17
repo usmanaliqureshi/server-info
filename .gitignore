@@ -1,0 +1,69 @@
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.tgz
+*.map
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
+
+# Composer #
+##########
+library/vendors/composer/
+!resources/js/vendor/
+wpcs/
+composer.lock
+
+# Bower #
+##########
+resources/bower_components/*
+
+# Codekit #
+##########
+/codekit-config.json
+*.codekit
+**.codekit-cache/*
+
+# NPM #
+##########
+node_modules
+
+# Compiled Files and Build Dirs #
+##########
+/README.html
+/build/
+
+# PhpStrom Project Files #
+.idea/
+library/vendors/composer
+resources/img/.DS_Store
+resources/sass/HTML
+resources/sass/Rails
+HTML
+Rails
