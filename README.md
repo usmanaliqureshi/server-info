@@ -1,15 +1,16 @@
-=== Server Info ===<br>
-Contributors: usmanaliqureshi<br>
-Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database<br>
-Requires at least: 3.0<br>
-Tested up to: 4.8<br>
-Stable tag: 4.6<br>
-License: GPLv2 or later<br>
-License URI: http://www.gnu.org/licenses/gpl-2.0.html<br>
+# Server Info
+
+Contributors: usmanaliqureshi
+Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database
+Requires at least: 3.0
+Tested up to: 4.8
+Stable tag: 4.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin will show you very useful information about your hosting server such as PHP version, Server OS, Server IP etc.
 
-== Description ==
+## Description
 
 This plugin will show you useful information about the hosting server you are using e.g. PHP version, MySQL version, Server OS, Server Protocol, Server IP and other useful information. You can use the information displayed by this plugin to update any settings which is crucial for your website performance and other aspects.
 
@@ -33,7 +34,7 @@ You will see the information about:
 
 Please rate the Plugin if you find it useful, thanks.
 
-== Installation ==
+## Installation
 
 Instructions for installing the Server Info Plugin.
 
@@ -43,32 +44,31 @@ Instructions for installing the Server Info Plugin.
 4. Once installed click to activate.<br>
 5. Now go to your WordPress dashboard and you will have a new menu option called Server Info.<br>
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-= Does this plugin works with all major PHP versions? =
+### Does this plugin works with all major PHP versions? =
 
 Yes, it works with all major PHP versions and I have tested it with PHP version 5.3, 5.4, 5.5, 5.6, 7.0 and 7.1.
 
-== Screenshots ==
+## Screenshots
 
 1. WordPress Dashboard Widget.
-
 2. Separate Page for Detailed Server Information.
 
-== Changelog ==
+## Changelog
 
-= 2.5 =
+### 2.5
 * Revamped UI
 * Added WordPress Information section
 * Fixed Multiple Bugs
 * Moved Server Info page under Settings
 
-= 2.0.1 =
+### 2.0.1
 * Changed dashboard icon for the menu item of Server Info
 
-= 2.0 =
+### 2.0
 * Removed MySQL Client Version
 * Added WordPress Memory Limit
 
-= 1.0 =
+### 1.0
 * Initial Release
