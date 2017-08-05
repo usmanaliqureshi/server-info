@@ -46,9 +46,9 @@ Please rate the Plugin if you find it useful, thanks.
 
 Instructions for installing the Server Info Plugin.
 
-1. In your WordPress admin go to Plugins -> Add New.<br>
-2. Enter Server Info in the text box and click Search Plugins.<br>
-3. In the list of Plugins click Install Now next to the Server Info Plugin.<br>
+1. In your WordPress admin go to **Plugins** → **Add New.**
+2. Enter Server Info in the text box and click Search Plugins.
+3. In the list of Plugins click Install Now next to the Server Info Plugin.
 4. Once installed click to activate.<br>
 5. Now go to your WordPress dashboard and you will have a new menu option called Server Info.<br>
 
