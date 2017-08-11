@@ -9,10 +9,8 @@ License: GPLv2 or later
 */
 
 
-defined('ABSPATH') or die('No script kiddies please!');
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
-define('PLUGIN_DIR', dirname(__FILE__) . '/');
+define( 'PLUGIN_DIR', dirname( __FILE__ ) . '/' );
 
 include_once PLUGIN_DIR . 'functions.php';
-
-?>
