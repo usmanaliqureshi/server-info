@@ -55,7 +55,7 @@ Instructions for installing the Server Info Plugin.
 
 ## Frequently Asked Questions
 
-### Does this plugin works with all major PHP versions? =
+### Does this plugin works with all major PHP versions?
 
 Yes, it works with all major PHP versions and I have tested it with PHP version 5.3, 5.4, 5.5, 5.6, 7.0 and 7.1.
 
@@ -63,7 +63,9 @@ Yes, it works with all major PHP versions and I have tested it with PHP version 
 ## Screenshots
 
 1. WordPress Dashboard Widget.
+![Server Info Screenshot 1](https://i.imgur.com/lIMhkFV.png)
 2. Separate Page for Detailed Server Information.
+![Server Info Screenshot 2](https://i.imgur.com/zw5hIib.png)
 
 
 ## Changelog
@@ -83,3 +85,6 @@ Yes, it works with all major PHP versions and I have tested it with PHP version 
 
 ### 1.0
 * Initial Release
+
+## License
+**Server Info** is GPL v2.0 or later.
