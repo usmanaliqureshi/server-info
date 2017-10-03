@@ -62,9 +62,12 @@ Yes, it works with all major PHP versions and I have tested it with PHP version 
 
 ## Screenshots
 
-1. WordPress Dashboard Widget.
+### WordPress Dashboard Widget.
+
 ![Server Info Screenshot 1](https://i.imgur.com/lIMhkFV.png)
-2. Separate Page for Detailed Server Information.
+
+### Separate Page for Detailed Server Information.
+
 ![Server Info Screenshot 2](https://i.imgur.com/zw5hIib.png)
 
 
