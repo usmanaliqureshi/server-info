@@ -72,7 +72,7 @@ class server_info {
 
 						<tr>
 
-							<td><h5>Server Hostame:</h5></td>
+							<td><h5>Server Hostname:</h5></td>
 
 							<td><p><?php echo php_uname( 'n' ); ?></p></td>
 
@@ -328,7 +328,7 @@ class server_info {
 
 			<tr>
 
-				<td><h5>Server Hostame:</h5></td>
+				<td><h5>Server Hostname:</h5></td>
 
 				<td><p><?php echo php_uname( 'n' ); ?></p></td>
 

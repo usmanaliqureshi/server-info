@@ -47,23 +47,28 @@ Please rate the Plugin if you find it useful, thanks.
 Instructions for installing the Server Info Plugin.
 
 1. In your WordPress admin go to **Plugins** → **Add New.**
-2. Enter Server Info in the text box and click Search Plugins.
-3. In the list of Plugins click Install Now next to the Server Info Plugin.
+2. Enter **Server Info** in the text box and click Search Plugins.
+3. In the list of Plugins click **Install Now** next to the Server Info Plugin.
 4. Once installed click to activate.<br>
-5. Now go to your WordPress dashboard and you will have a new menu option called Server Info.<br>
+5. Now go to your WordPress dashboard and you will have a new menu option called **Server Info**.<br>
 
 
 ## Frequently Asked Questions
 
-### Does this plugin works with all major PHP versions? =
+### Does this plugin works with all major PHP versions?
 
 Yes, it works with all major PHP versions and I have tested it with PHP version 5.3, 5.4, 5.5, 5.6, 7.0 and 7.1.
 
 
 ## Screenshots
 
-1. WordPress Dashboard Widget.
-2. Separate Page for Detailed Server Information.
+### WordPress Dashboard Widget.
+
+![Server Info Screenshot 1](https://i.imgur.com/lIMhkFV.png)
+
+### Separate Page for Detailed Server Information.
+
+![Server Info Screenshot 2](https://i.imgur.com/zw5hIib.png)
 
 
 ## Changelog
@@ -83,3 +88,6 @@ Yes, it works with all major PHP versions and I have tested it with PHP version 
 
 ### 1.0
 * Initial Release
+
+## License
+**Server Info** is GPL v2.0 or later.
