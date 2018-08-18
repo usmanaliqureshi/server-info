@@ -6,7 +6,7 @@ class server_info {
 
 	public static function infohouse_css_styles() {
 
-		wp_enqueue_style( 'style-name', get_bloginfo( 'url' ) . '/wp-content/plugins/server-info/assets/css/style.css' );
+		wp_enqueue_style( 'si-styles', plugins_url( '../assets/css/style.css', __FILE__ ) );
 
 	}
 
