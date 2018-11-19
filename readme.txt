@@ -2,7 +2,7 @@
 Contributors: usmanaliqureshi
 Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database
 Requires at least: 3.0
-Tested up to: 4.9.1
+Tested up to: 5.0
 Stable tag: 4.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -56,6 +56,10 @@ Yes, it works with all major PHP versions and I have tested it with PHP version 
 2. Separate Page for Detailed Server Information.
 
 == Changelog ==
+
+= 2.5.1 =
+* Added Translation Support
+* Added Fremius Integration
 
 = 2.5 =
 * Revamped UI

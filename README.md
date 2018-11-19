@@ -6,7 +6,7 @@ Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wo
 
 Requires at least: 3.0
 
-Tested up to: 4.9.1
+Tested up to: 5.0
 
 Stable tag: 4.6
 
@@ -72,6 +72,10 @@ Yes, it works with all major PHP versions and I have tested it with PHP version 
 
 
 ## Changelog
+
+### 2.5.1
+* Added Translation Support
+* Added Fremius Integration
 
 ### 2.5
 * Revamped UI
