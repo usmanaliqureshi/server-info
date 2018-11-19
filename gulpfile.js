@@ -44,12 +44,18 @@ gulp.task('zip', gulp.parallel(['translate'], function () {
         // Exclude
         '!./prepros.cfg',
         '!./README.md',
+        '!./server-info.zip',
         '!./**/.DS_Store',
         '!./sass/**/*.scss',
         '!./sass',
         '!./node_modules/**',
         '!./node_modules',
+        '!./wp-assets',
+        '!./wp-assets/**',
+        '!./old-versions',
+        '!./old-versions/**',
         '!./package.json',
+        '!./package-lock.json',
         '!./gulpfile.js',
         '!./*.sublime-project',
         '!./*.sublime-workspace'
