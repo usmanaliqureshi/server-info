@@ -14,7 +14,7 @@ class server_info {
 
 		add_options_page(
 
-			'Server Information',
+			_e('Server Information', 'si'),
 
 			'Server Info',
 
@@ -34,11 +34,11 @@ class server_info {
 
 		<div class="wrap server-info">
 
-			<h2 class="infohouse_heading">Server Information</h2>
+			<h2 class="infohouse_heading"><?php _e('Server Information', 'si'); ?></h2>
 
 			<hr/>
 
-			<p>Server Info plugin shows the general information about the hosting server your WordPress site is	currently hosted on. You can find this information helpful for many purposes like performance improvements and so on.</p>
+			<p><?php _e('Server Info plugin shows the general information about the hosting server your WordPress site is currently hosted on. You can find this information helpful for many purposes like performance improvements and so on.', 'si'); ?></p>
 
 			<br/>
 
@@ -50,13 +50,13 @@ class server_info {
 
 						<tr>
 
-							<th colspan="2"><h3>Hosting Server Info</h3></th>
+							<th colspan="2"><h3><? _e('Hosting Server Info', 'si'); ?></h3></th>
 
 						</tr>
 
 						<tr>
 
-							<td><h5>Operating System:</h5></td>
+							<td><h5><? _e('Operating System', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo php_uname( 's' ); ?></p></td>
 
@@ -64,7 +64,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>Server IP:</h5></td>
+							<td><h5><? _e('Server IP', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo $_SERVER['SERVER_ADDR']; ?></p></td>
 
@@ -72,7 +72,7 @@ class server_info {
 
 						<tr>
 
-							<td><h5>Server Hostname:</h5></td>
+							<td><h5><? _e('Server Hostname', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo php_uname( 'n' ); ?></p></td>
 
@@ -80,7 +80,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>Server Protocol:</h5></td>
+							<td><h5><? _e('Server Protocol', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo $_SERVER['SERVER_PROTOCOL']; ?></p></td>
 
@@ -88,7 +88,7 @@ class server_info {
 
 						<tr>
 
-							<td><h5>Server Administrator:</h5></td>
+							<td><h5><? _e('Server Administrator', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo $_SERVER['SERVER_ADMIN']; ?></p></td>
 
@@ -96,7 +96,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>Server Web Port:</h5></td>
+							<td><h5><? _e('Server Web Port', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo $_SERVER['SERVER_PORT']; ?></p></td>
 
@@ -104,7 +104,7 @@ class server_info {
 
 						<tr>
 
-							<td><h5>PHP Version:</h5></td>
+							<td><h5><? _e('PHP Version', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo phpversion(); ?></p></td>
 
@@ -112,7 +112,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>MySQL Version:</h5></td>
+							<td><h5><? _e('MySQL Version', 'si'); ?>:</h5></td>
 
 							<td>
 								<p><?php
@@ -128,7 +128,7 @@ class server_info {
 
 						<tr>
 
-							<td><h5>CGI Version:</h5></td>
+							<td><h5><? _e('CGI Version', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo $_SERVER['GATEWAY_INTERFACE']; ?></p></td>
 
@@ -142,7 +142,7 @@ class server_info {
 
 							<tr class="gray">
 
-								<td><h5>System Uptime:</h5></td>
+								<td><h5><? _e('System Uptime', 'si'); ?>:</h5></td>
 
 								<td><p><?php echo $uptime; ?></p></td>
 
@@ -156,13 +156,13 @@ class server_info {
 
 						<tr>
 
-							<th colspan="2"><h3>WordPress Info</h3></th>
+							<th colspan="2"><h3><? _e('WordPress Info', 'si'); ?></h3></th>
 
 						</tr>
 
 						<tr>
 
-							<td><h5>Active Theme:</h5></td>
+							<td><h5><? _e('Active Theme', 'si'); ?>:</h5></td>
 
 							<td><?php
 
@@ -176,7 +176,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>Active Plugins:</h5></td>
+							<td><h5><? _e('Active Plugins', 'si'); ?>:</h5></td>
 
 							<td><?php
 
@@ -200,7 +200,7 @@ class server_info {
 
 						<tr>
 
-							<td><h5>Database Hostname:</h5></td>
+							<td><h5><? _e('Database Hostname', 'si'); ?>:</h5></td>
 
 							<td><?php echo DB_HOST; ?></td>
 
@@ -208,7 +208,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>Database Username:</h5></td>
+							<td><h5><? _e('Database Username', 'si'); ?>:</h5></td>
 
 							<td><?php echo DB_USER; ?></td>
 
@@ -216,7 +216,7 @@ class server_info {
 
 						<tr>
 
-							<td><h5>Database Name:</h5></td>
+							<td><h5><? _e('Database Name', 'si'); ?>:</h5></td>
 
 							<td><?php echo DB_NAME; ?></td>
 
@@ -224,7 +224,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>Database Charset:</h5></td>
+							<td><h5><? _e('Database Charset', 'si'); ?>:</h5></td>
 
 							<td><?php echo DB_CHARSET; ?></td>
 
@@ -240,7 +240,7 @@ class server_info {
 
 							<tr>
 
-								<td><h5>Database Collation:</h5></td>
+								<td><h5><? _e('Database Collation', 'si'); ?>:</h5></td>
 
 								<td><?php echo DB_COLLATE; ?></td>
 
@@ -258,7 +258,7 @@ class server_info {
 
 							<tr>
 
-								<td><h5>WordPress Debugging:</h5></td>
+								<td><h5><? _e('WordPress Debugging', 'si'); ?>:</h5></td>
 
 								<td><?php
 
@@ -280,7 +280,7 @@ class server_info {
 
 						<tr class="gray">
 
-							<td><h5>WordPress Memory Limit:</h5></td>
+							<td><h5><? _e('WordPress Memory Limit', 'si'); ?>:</h5></td>
 
 							<td><p><?php echo WP_MEMORY_LIMIT; ?></p></td>
 
@@ -312,7 +312,7 @@ class server_info {
 
 			<tr>
 
-				<td><h5>Operating System:</h5></td>
+				<td><h5><? _e('Operating System', 'si'); ?>:</h5></td>
 
 				<td><p><?php echo php_uname( "s" ); ?></p></td>
 
@@ -320,7 +320,7 @@ class server_info {
 
 			<tr class="gray">
 
-				<td><h5>Server IP:</h5></td>
+				<td><h5><? _e('Server IP', 'si'); ?>:</h5></td>
 
 				<td><p><?php echo $_SERVER['SERVER_ADDR']; ?></p></td>
 
@@ -328,7 +328,7 @@ class server_info {
 
 			<tr>
 
-				<td><h5>Server Hostname:</h5></td>
+				<td><h5><? _e('Server Hostname', 'si'); ?>:</h5></td>
 
 				<td><p><?php echo php_uname( 'n' ); ?></p></td>
 
@@ -336,7 +336,7 @@ class server_info {
 
 			<tr class="gray">
 
-				<td><h5>PHP Version:</h5></td>
+				<td><h5><? _e('PHP Version', 'si'); ?>:</h5></td>
 
 				<td><p><?php echo phpversion(); ?></p></td>
 
