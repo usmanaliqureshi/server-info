@@ -1,5 +1,7 @@
 # Server Info
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/usmanaliqureshi/server-info.svg)](https://greenkeeper.io/)
+
 Contributors: usmanaliqureshi
 
 Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database
