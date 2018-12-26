@@ -57,6 +57,10 @@ Yes, it works with all major PHP versions and I have tested it with PHP version 
 
 == Changelog ==
 
+### 2.5.2
+* Fixed Header Warning on old PHP versions
+* Fixed Heading Issue
+
 = 2.5.1 =
 * Added Translation Support
 * Added Fremius Integration
