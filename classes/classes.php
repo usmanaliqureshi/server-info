@@ -1,5 +1,8 @@
 <?php
 
+// Fix some PHP related issues with older versions
+ob_start();
+
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 class server_info {
@@ -14,7 +17,7 @@ class server_info {
 
 		add_options_page(
 
-			_e('Server Information', 'si'),
+			__('Server Information', 'si'),
 
 			'Server Info',
 
