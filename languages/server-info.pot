@@ -16,94 +16,94 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: classes/classes.php:17, classes/classes.php:37
+#: classes/classes.php:20, classes/classes.php:40
 msgid "Server Information"
 msgstr ""
 
-#: classes/classes.php:41
+#: classes/classes.php:44
 msgid "Server Info plugin shows the general information about the hosting server your WordPress site is currently hosted on. You can find this information helpful for many purposes like performance improvements and so on."
 msgstr ""
 
-#: classes/classes.php:53
+#: classes/classes.php:56
 msgid "Hosting Server Info"
 msgstr ""
 
-#: classes/classes.php:59, classes/classes.php:315
+#: classes/classes.php:62, classes/classes.php:318
 msgid "Operating System"
 msgstr ""
 
-#: classes/classes.php:67, classes/classes.php:323
+#: classes/classes.php:70, classes/classes.php:326
 msgid "Server IP"
 msgstr ""
 
-#: classes/classes.php:75, classes/classes.php:331
+#: classes/classes.php:78, classes/classes.php:334
 msgid "Server Hostname"
 msgstr ""
 
-#: classes/classes.php:83
+#: classes/classes.php:86
 msgid "Server Protocol"
 msgstr ""
 
-#: classes/classes.php:91
+#: classes/classes.php:94
 msgid "Server Administrator"
 msgstr ""
 
-#: classes/classes.php:99
+#: classes/classes.php:102
 msgid "Server Web Port"
 msgstr ""
 
-#: classes/classes.php:107, classes/classes.php:339
+#: classes/classes.php:110, classes/classes.php:342
 msgid "PHP Version"
 msgstr ""
 
-#: classes/classes.php:115
+#: classes/classes.php:118
 msgid "MySQL Version"
 msgstr ""
 
-#: classes/classes.php:131
+#: classes/classes.php:134
 msgid "CGI Version"
 msgstr ""
 
-#: classes/classes.php:145
+#: classes/classes.php:148
 msgid "System Uptime"
 msgstr ""
 
-#: classes/classes.php:159
+#: classes/classes.php:162
 msgid "WordPress Info"
 msgstr ""
 
-#: classes/classes.php:165
+#: classes/classes.php:168
 msgid "Active Theme"
 msgstr ""
 
-#: classes/classes.php:179
+#: classes/classes.php:182
 msgid "Active Plugins"
 msgstr ""
 
-#: classes/classes.php:203
+#: classes/classes.php:206
 msgid "Database Hostname"
 msgstr ""
 
-#: classes/classes.php:211
+#: classes/classes.php:214
 msgid "Database Username"
 msgstr ""
 
-#: classes/classes.php:219
+#: classes/classes.php:222
 msgid "Database Name"
 msgstr ""
 
-#: classes/classes.php:227
+#: classes/classes.php:230
 msgid "Database Charset"
 msgstr ""
 
-#: classes/classes.php:243
+#: classes/classes.php:246
 msgid "Database Collation"
 msgstr ""
 
-#: classes/classes.php:261
+#: classes/classes.php:264
 msgid "WordPress Debugging"
 msgstr ""
 
-#: classes/classes.php:283
+#: classes/classes.php:286
 msgid "WordPress Memory Limit"
 msgstr ""
