@@ -49,6 +49,10 @@ Instructions for installing the Server Info Plugin.
 
 Yes, it works with all major PHP versions and I have tested it with PHP version 5.3, 5.4, 5.5, 5.6, 7.0 and 7.1.
 
+= Is Server Info Plugin GDPR compliant? =
+
+Yes, absolutely.
+
 == Screenshots ==
 
 1. WordPress Dashboard Widget.
