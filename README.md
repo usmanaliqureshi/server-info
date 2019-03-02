@@ -6,7 +6,7 @@ Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wo
 
 Requires at least: 3.0
 
-Tested up to: 5.0.2
+Tested up to: 5.1
 
 Stable tag: 4.6
 
