@@ -25,7 +25,7 @@ msgid "Server Info plugin shows the general information about the hosting server
 msgstr ""
 
 #: classes/classes.php:56
-msgid "Hosting Server Info"
+msgid "Hosting Server Information"
 msgstr ""
 
 #: classes/classes.php:62, classes/classes.php:318
@@ -69,7 +69,7 @@ msgid "System Uptime"
 msgstr ""
 
 #: classes/classes.php:162
-msgid "WordPress Info"
+msgid "WordPress Information"
 msgstr ""
 
 #: classes/classes.php:168
