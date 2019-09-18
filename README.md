@@ -6,7 +6,7 @@ Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wo
 
 Requires at least: 3.0
 
-Tested up to: 5.1
+Tested up to: 5.2
 
 Stable tag: 4.6
 
@@ -76,6 +76,11 @@ Yes, absolutely.
 
 
 ## Changelog
+
+
+### 2.5.3
+* Removed Freemius Integration
+* Fixed Information Labels
 
 ### 2.5.2
 * Fixed Header Warning on old PHP versions

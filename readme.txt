@@ -2,7 +2,7 @@
 Contributors: usmanaliqureshi
 Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database
 Requires at least: 3.0
-Tested up to: 5.1
+Tested up to: 5.2
 Stable tag: 4.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -60,6 +60,10 @@ Yes, absolutely.
 2. Separate Page for Detailed Server Information.
 
 == Changelog ==
+
+### 2.5.3
+* Removed Freemius Integration
+* Fixed Information Labels
 
 ### 2.5.2
 * Fixed Header Warning on old PHP versions
