@@ -16,17 +16,11 @@ class server_info {
 	public static function servinfo_admin_actions() {
 
 		add_options_page(
-
 			__('Server Information', 'si'),
-
 			'Server Info',
-
 			'manage_options',
-
 			'server_info_display',
-
 			array( 'server_info', 'display_infohouse_page' )
-
 		);
 
 	}
