@@ -1,25 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
 .infohouse_heading {
-
     font-family: 'Varela Round', sans-serif;
-
     font-size: 29px !important;
-
     text-transform: uppercase;
-
 }
 
 .server-info p {
-
     font-weight: 300;
-
     font-size: 15px;
-
     color: #000;
-
     text-shadow: 2px 2px 2px #ecebeb;
-
 }
 
 .infohouse_settings_page {
