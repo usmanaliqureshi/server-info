@@ -43,17 +43,11 @@
 }
 
 .infohouse_table tr td {
-
     padding: 0px 20px;
-
     margin: 0;
-
     border: 1px solid rgba(195, 195, 195, 0.08);
-
     text-align: center;
-
     letter-spacing: 1px;
-
 }
 
 .infohouse_table tr.gray td {
