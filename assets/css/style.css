@@ -59,17 +59,11 @@
 }
 
 .infohouse_table tr td p {
-
     padding: 0;
-
     margin: 0;
-
     font-family: 'Varela Round', sans-serif;
-
     font-weight: 400;
-
     font-size: 12px;
-
 }
 
 .infohouse_table tr td.view-more-info {
