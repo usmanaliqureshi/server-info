@@ -77,23 +77,13 @@
 }
 
 @media only screen and (min-width: 1600px) {
-
     .infohouse_table {
-
         border: 1px solid rgba(0, 0, 0, 0.08);
-
         background-color: #fff;
-
         border-collapse: collapse;
-
         float: left;
-
         margin-right: 20px;
-
         margin-left: 2%;
-
         width: 45%;
-
     }
-
 }
