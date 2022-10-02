@@ -5,6 +5,9 @@ ob_start();
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
+/**
+ * Server Info Class
+ */
 class server_info {
 
 	public static function infohouse_css_styles() {
