@@ -11,9 +11,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 class server_info {
 
 	public static function infohouse_css_styles() {
-
 		wp_enqueue_style( 'si-styles', plugins_url( '../assets/css/style.css', __FILE__ ) );
-
 	}
 
 	public static function servinfo_admin_actions() {
