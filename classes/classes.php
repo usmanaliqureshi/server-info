@@ -15,7 +15,6 @@ class server_info {
 	}
 
 	public static function servinfo_admin_actions() {
-
 		add_options_page(
 			__('Server Information', 'si'),
 			'Server Info',
@@ -23,7 +22,6 @@ class server_info {
 			'server_info_display',
 			array( 'server_info', 'display_infohouse_page' )
 		);
-
 	}
 
 	public static function display_infohouse_page() {
