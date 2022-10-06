@@ -294,7 +294,6 @@ class server_info {
 	}
 
 	public static function server_info_add_dashboard_widgets() {
-
 		wp_add_dashboard_widget(
 			'serverinfo_dashboard_widget',
 			'Server Info',
