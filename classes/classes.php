@@ -45,9 +45,7 @@ class server_info {
 					<table class="table infohouse_table">
 
 						<tr>
-
 							<th colspan="2"><h3><?php _e('Hosting Server Information', 'si'); ?></h3></th>
-
 						</tr>
 
 						<tr>
