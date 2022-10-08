@@ -1,7 +1,6 @@
 # Server Info
 
 Contributors: usmanaliqureshi
-
 Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database
 
 Requires at least: 3.0
