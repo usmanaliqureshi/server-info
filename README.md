@@ -6,7 +6,6 @@ Requires at least: 3.0
 Tested up to: 5.2
 Stable tag: 4.6
 License: GPLv2 or later
-
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin will show you very useful information about your hosting server such as PHP version, Server OS, Server IP etc.
