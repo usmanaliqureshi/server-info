@@ -93,9 +93,5 @@ Yes, absolutely.
 ### 2.0.1
 * Changed dashboard icon for the menu item of Server Info
 
-### 2.0
-* Removed MySQL Client Version
-* Added WordPress Memory Limit
-
 ## License
 **Server Info** is GPL v2.0 or later.
