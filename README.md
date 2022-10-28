@@ -90,8 +90,7 @@ Yes, absolutely.
 * Fixed Multiple Bugs
 * Moved Server Info page under Settings
 
-### 2.0.1
-* Changed dashboard icon for the menu item of Server Info
+
 
 ## License
 **Server Info** is GPL v2.0 or later.
