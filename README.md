@@ -91,6 +91,5 @@ Yes, absolutely.
 * Moved Server Info page under Settings
 
 
-
 ## License
 **Server Info** is GPL v2.0 or later.
