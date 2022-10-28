@@ -97,8 +97,5 @@ Yes, absolutely.
 * Removed MySQL Client Version
 * Added WordPress Memory Limit
 
-### 1.0
-* Initial Release
-
 ## License
 **Server Info** is GPL v2.0 or later.
