@@ -85,7 +85,6 @@ Yes, absolutely.
 * Added Fremius Integration
 
 ### 2.5
-* Revamped UI
 
 ## License
 **Server Info** is GPL v2.0 or later.
