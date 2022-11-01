@@ -86,7 +86,6 @@ Yes, absolutely.
 
 ### 2.5
 * Revamped UI
-* Added WordPress Information section
 
 ## License
 **Server Info** is GPL v2.0 or later.
