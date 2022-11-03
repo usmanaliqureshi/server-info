@@ -84,7 +84,7 @@ Yes, absolutely.
 * Added Translation Support
 * Added Fremius Integration
 
-### 2.5
+
 
 ## License
 **Server Info** is GPL v2.0 or later.
