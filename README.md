@@ -81,7 +81,7 @@ Yes, absolutely.
 * Fixed Heading Issue
 
 ### 2.5.1
-* Added Translation Support
+
 
 ## License
 **Server Info** is GPL v2.0 or later.
