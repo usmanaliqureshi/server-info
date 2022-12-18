@@ -81,6 +81,5 @@ Yes, absolutely.
 * Fixed Heading Issue
 
 
-
 ## License
 **Server Info** is GPL v2.0 or later.
