@@ -78,7 +78,7 @@ Yes, absolutely.
 
 ### 2.5.2
 * Fixed Header Warning on old PHP versions
-* Fixed Heading Issue
+
 
 ## License
 **Server Info** is GPL v2.0 or later.
