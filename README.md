@@ -77,7 +77,7 @@ Yes, absolutely.
 * Fixed Information Labels
 
 ### 2.5.2
-* Fixed Header Warning on old PHP versions
+
 
 ## License
 **Server Info** is GPL v2.0 or later.
