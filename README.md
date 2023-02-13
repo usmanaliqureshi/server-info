@@ -77,6 +77,5 @@ Yes, absolutely.
 * Fixed Information Labels
 
 
-
 ## License
 **Server Info** is GPL v2.0 or later.
