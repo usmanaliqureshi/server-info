@@ -68,6 +68,5 @@ Yes, absolutely.
 
 ![Server Info Screenshot 2](https://i.imgur.com/zw5hIib.png)
 
-
 ## License
 **Server Info** is GPL v2.0 or later.
