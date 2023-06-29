@@ -71,5 +71,8 @@ Yes, absolutely.
 
 ## Changelog
 
+
+### 2.5.3
+
 ## License
 **Server Info** is GPL v2.0 or later.
