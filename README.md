@@ -71,7 +71,6 @@ Yes, absolutely.
 
 ## Changelog
 
-
 ### 2.5.3
 
 ## License
