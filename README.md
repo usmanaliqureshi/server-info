@@ -72,6 +72,7 @@ Yes, absolutely.
 ## Changelog
 
 ### 0.0.1
+- Plugin Core Restructured Completely
 
 ## License
 **Server Info** is GPL v2.0 or later.
