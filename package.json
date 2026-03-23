@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/usmanaliqureshi/server-info#readme",
   "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-notify": "^3.2.0",
+    "gulp": "^5.0.1",
+    "gulp-notify": "^5.0.0",
     "gulp-sort": "^2.0.0",
     "gulp-wp-pot": "^2.5.0",
     "gulp-zip": "^5.1.0"
