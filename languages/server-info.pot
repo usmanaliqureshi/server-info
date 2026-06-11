@@ -1,109 +1,249 @@
-# Copyright (C) 2019 server-info
-# This file is distributed under the same license as the server-info package.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: server-info\n"
+"Project-Id-Version: Server Info\n"
+"POT-Creation-Date: 2023-06-01 18:13+0500\n"
+"PO-Revision-Date: 2023-06-01 18:13+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Team: InspiryThemes <usman@inspirythemes.com>\n"
-"Last-Translator: Usman Ali Qureshi <usman@usmanaliqureshi.com>\n"
-"Report-Msgid-Bugs-To: https://github.com/usmanaliqureshi/server-info/issues\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: server-info.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: classes/classes.php:20, classes/classes.php:40
+#: server-info.php:105 server-info.php:499
 msgid "Server Information"
 msgstr ""
 
-#: classes/classes.php:44
-msgid "Server Info plugin shows the general information about the hosting server your WordPress site is currently hosted on. You can find this information helpful for many purposes like performance improvements and so on."
+#. Plugin Name of the plugin/theme
+#: server-info.php:106 server-info.php:121
+msgid "Server Info"
 msgstr ""
 
-#: classes/classes.php:56
-msgid "Hosting Server Information"
-msgstr ""
-
-#: classes/classes.php:62, classes/classes.php:318
+#: server-info.php:138 server-info.php:216
 msgid "Operating System"
 msgstr ""
 
-#: classes/classes.php:70, classes/classes.php:326
+#: server-info.php:147 server-info.php:229
 msgid "Server IP"
 msgstr ""
 
-#: classes/classes.php:78, classes/classes.php:334
+#: server-info.php:156 server-info.php:222
 msgid "Server Hostname"
 msgstr ""
 
-#: classes/classes.php:86
-msgid "Server Protocol"
-msgstr ""
-
-#: classes/classes.php:94
-msgid "Server Administrator"
-msgstr ""
-
-#: classes/classes.php:102
-msgid "Server Web Port"
-msgstr ""
-
-#: classes/classes.php:110, classes/classes.php:342
+#: server-info.php:165
 msgid "PHP Version"
 msgstr ""
 
-#: classes/classes.php:118
-msgid "MySQL Version"
+#: server-info.php:173
+msgid "View More Information"
 msgstr ""
 
-#: classes/classes.php:134
-msgid "CGI Version"
+#: server-info.php:192
+msgid "Hosting Server Information"
 msgstr ""
 
-#: classes/classes.php:148
+#: server-info.php:204
+msgid "(Supports 64bit values)"
+msgstr ""
+
+#: server-info.php:204
+msgid "(Does not support 64bit values)"
+msgstr ""
+
+#: server-info.php:207
+msgid "Unable to determine PHP version"
+msgstr ""
+
+#: server-info.php:217
+msgid "Unable to determine server architecture"
+msgstr ""
+
+#: server-info.php:236
+msgid "Server Protocol"
+msgstr ""
+
+#: server-info.php:243
+msgid "Server Administrator"
+msgstr ""
+
+#: server-info.php:250
+msgid "Server Web Port"
+msgstr ""
+
+#: server-info.php:258
 msgid "System Uptime"
 msgstr ""
 
-#: classes/classes.php:162
+#: server-info.php:264
+msgid "Web server"
+msgstr ""
+
+#: server-info.php:265
+msgid "Unable to determine what web server software is used"
+msgstr ""
+
+#: server-info.php:269
+msgid "PHP version"
+msgstr ""
+
+#: server-info.php:276
+msgid "PHP memory limit"
+msgstr ""
+
+#: server-info.php:283
+msgid "CGI Version"
+msgstr ""
+
+#: server-info.php:292
+msgid "Database"
+msgstr ""
+
+#: server-info.php:322
+msgid "Extension"
+msgstr ""
+
+#: server-info.php:327
+msgid "Server version"
+msgstr ""
+
+#: server-info.php:332
+msgid "Client version"
+msgstr ""
+
+#: server-info.php:337
+msgid "Database username"
+msgstr ""
+
+#: server-info.php:343
+msgid "Database host"
+msgstr ""
+
+#: server-info.php:349
+msgid "Database name"
+msgstr ""
+
+#: server-info.php:355
+msgid "Table prefix"
+msgstr ""
+
+#: server-info.php:361
+msgid "Database charset"
+msgstr ""
+
+#: server-info.php:367
+msgid "Database collation"
+msgstr ""
+
+#: server-info.php:377
 msgid "WordPress Information"
 msgstr ""
 
-#: classes/classes.php:168
+#: server-info.php:380
+msgid "Is this a multisite?"
+msgstr ""
+
+#: server-info.php:381
+msgid "Yes"
+msgstr ""
+
+#: server-info.php:381
+msgid "No"
+msgstr ""
+
+#: server-info.php:402 server-info.php:419
+msgid "User count"
+msgstr ""
+
+#: server-info.php:407
+msgid "Site count"
+msgstr ""
+
+#: server-info.php:412
+msgid "Network count"
+msgstr ""
+
+#: server-info.php:427
 msgid "Active Theme"
 msgstr ""
 
-#: classes/classes.php:182
+#: server-info.php:429
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: server-info.php:445
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: server-info.php:458 server-info.php:466
+msgid "None"
+msgstr ""
+
+#: server-info.php:461
 msgid "Active Plugins"
 msgstr ""
 
-#: classes/classes.php:206
-msgid "Database Hostname"
+#: server-info.php:469
+msgid "Inactive Plugins"
 msgstr ""
 
-#: classes/classes.php:214
-msgid "Database Username"
+#: server-info.php:474
+msgid "WordPress Memory Limit"
 msgstr ""
 
-#: classes/classes.php:222
-msgid "Database Name"
+#: server-info.php:479
+msgid "WordPress Max Memory Limit"
 msgstr ""
 
-#: classes/classes.php:230
-msgid "Database Charset"
-msgstr ""
-
-#: classes/classes.php:246
-msgid "Database Collation"
-msgstr ""
-
-#: classes/classes.php:264
+#: server-info.php:484
 msgid "WordPress Debugging"
 msgstr ""
 
-#: classes/classes.php:286
-msgid "WordPress Memory Limit"
+#: server-info.php:485
+msgid "Enabled"
+msgstr ""
+
+#: server-info.php:485
+msgid "Disabled"
+msgstr ""
+
+#: server-info.php:501
+msgid ""
+"Server Info plugin shows the general information about the hosting server "
+"your WordPress site is currently hosted on. You can find this information "
+"helpful for many purposes like performance improvements and so on."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/usmanaliqureshi/server-info"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin will show you useful information about the hosting server you "
+"are using e.g. PHP version, MySQL version, Server OS, Server Protocol, "
+"Server IP and other useful information. You can use the information "
+"displayed by this plugin to update any settings which is crucial for your "
+"website performance and other aspects."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Usman Ali Qureshi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/usmanaliqureshi"
 msgstr ""

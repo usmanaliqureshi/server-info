@@ -1,90 +1,77 @@
-=== Server Info ===
+=== Server Info - System Health & Diagnostics Suite ===
 Contributors: usmanaliqureshi
-Tags: admin, dashboard, widget, server, info, PHP, version, operating system, wordpress, database
-Requires at least: 3.0
-Tested up to: 5.2
-Stable tag: 4.6
+Tags: admin, dashboard, server info, widget, server status, memory usage, php version
+Requires at least: 5.0
+Tested up to: 7.0
+Stable tag: 1.0.0
+Requires PHP: 7.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin will show you very useful information about your hosting server such as PHP version, Server OS, Server IP etc.
+The ultimate free Server Info plugin for WordPress. View Memory Limits, PHP/MySQL versions, Datacenter Location, and an Always-On Admin HUD.
 
 == Description ==
 
-This plugin will show you useful information about the hosting server you are using e.g. PHP version, MySQL version, Server OS, Server Protocol, Server IP and other useful information. You can use the information displayed by this plugin to update any settings which is crucial for your website performance and other aspects.
+**Server Info - System Health & Diagnostics Suite** provides a stunning, comprehensive dashboard to track your server’s health, debug fatal errors, and monitor database limits, all for free.
 
-You will see the information about:
+Why pay for a PRO server monitoring plugin when you can get all the premium features out-of-the-box? This plugin gives you a detailed look into your web hosting environment, helping you easily identify bottlenecks, memory limits, and configuration errors that could be slowing down your site or crashing WooCommerce.
 
-* PHP Version
-* Operating System
-* Server IP
-* Server Hostname
-* MySQL Version
-* System Uptime
-* Active Theme
-* Active Plugins
-* Database Name
-* Database Username
-* Database Hostname
-* Database Charset
-* Database Collate
-* WordPress Debugging (Enabled/Disabled)
-* WordPress Memory Limit
+### 🌟 Premium Features included for FREE:
+* **Always-On Admin Bar HUD:** A sleek HUD in your top WordPress admin bar showing your Environment (Local/Staging/Production), PHP version, and live RAM usage percentage.
+* **Smart Environment Badges:** Auto-detects if you are on a Local or Staging site, displaying a color-coded badge so you never accidentally break a live production site!
+* **Advanced Database Limits:** View your `Max Connections` and `Max Allowed Packet` to prevent your database from crashing during high-traffic events.
 
-Please rate the Plugin if you find it useful, thanks.
+### 📊 Comprehensive System Diagnostics:
+* **PHP Information:** PHP Version, Memory Limit, Upload Max Size, Post Max Size, Max Execution Time, Active Extensions.
+* **Database Information:** MySQL Version, Total Database Size, Database Charset & Collation, Top 5 Largest Tables with Sizes, Max Allowed Packet, and Max Connections.
+* **WordPress Configuration:** WP Memory Limit, Debug Mode Status, Multisite Detection, Permalink Structure, Current Theme, and Active/Inactive Plugins list.
+* **Server Details:** Server IP, Server Hostname, Web Server Software (Nginx/Apache/LiteSpeed), OS Architecture, and Live CPU/Memory/Uptime Metrics.
+* **Caching & Optimization:** Detects OPcache, Memcached, Redis Cache, and Output Buffering status to ensure your server is primed for speed.
+* **Diagnostics & Security:** Detects file permissions for `wp-config.php`, `wp-content`, and `uploads` directories, plus checks if WP Cron is running properly or disabled.
+
+Please rate the Plugin if you find it useful, thanks!
 
 == Installation ==
 
-Instructions for installing the Server Info Plugin.
-
-1. In your WordPress admin go to Plugins -> Add New.
-2. Enter Server Info in the text box and click Search Plugins.
-3. In the list of Plugins click Install Now next to the Server Info Plugin.
-4. Once installed click to activate.
-5. Now go to your WordPress dashboard and you will have a new menu option called Server Info.
+1. In your WordPress admin, go to Plugins -> Add New.
+2. Enter "Server Info" in the text box and click Search Plugins.
+3. In the list of Plugins, click Install Now next to the Server Info Plugin.
+4. Once installed, click to activate.
+5. Go to your WordPress Settings -> Server Info to view the detailed dashboard!
 
 == Frequently Asked Questions ==
 
-= Does this plugin works with all major PHP versions? =
+= Does this plugin work with all major PHP versions? =
 
-Yes, it works with all major PHP versions and I have tested it with PHP version 5.3, 5.4, 5.5, 5.6, 7.0 and 7.1.
+Yes! It is fully compatible and tested with PHP 7.3, 7.4, 8.0, 8.1, 8.2, and 8.3.
+
+= Does it slow down my website? =
+
+Absolutely not. The Server metrics are only loaded when an Administrator is actively viewing the backend dashboard. It has absolutely zero impact on your frontend site speed or database load.
 
 = Is Server Info Plugin GDPR compliant? =
 
-Yes, absolutely.
+Yes, absolutely. It only queries local server environments and does not track your website visitors in any way. No data is sent to third-party servers.
 
+= Who can view the Server Info dashboard? =
+
+For strict security reasons, only users with the `manage_options` capability (which is restricted to Administrators) are permitted to view the dashboard or see the top admin bar HUD.
+
+= Does it show caching status? =
+
+Yes! The plugin automatically checks if object caching modules like Redis, Memcached, or PHP OPcache are loaded and enabled on your server.
 == Screenshots ==
 
-1. WordPress Dashboard Widget.
-
-2. Separate Page for Detailed Server Information.
+1. Overview Dashboard - Real-time server health and configuration summary.
+2. Database Information - Detailed MySQL statistics and connection details.
+3. WordPress Core - Important WordPress configurations and debug status.
+4. PHP Information - Complete and beautifully styled phpinfo() output.
+5. Diagnostics & Logs - Evaluate server health with detailed score impacts.
+6. More Plugins - Additional tools to enhance your server experience.
 
 == Changelog ==
 
-### 2.5.3
-* Removed Freemius Integration
-* Fixed Information Labels
-
-### 2.5.2
-* Fixed Header Warning on old PHP versions
-* Fixed Heading Issue
-
-= 2.5.1 =
-* Added Translation Support
-* Added Fremius Integration
-
-= 2.5 =
-* Revamped UI
-* Added WordPress Information section
-* Fixed Multiple Bugs
-* Moved Server Info page under Settings
-
-= 2.0.1 =
-* Changed dashboard icon for the menu item of Server Info
-
-= 2.0 =
-* Removed MySQL Client Version
-* Added WordPress Memory Limit
-
-= 1.0 =
-* Initial Release
+= 1.0.0 =
+* Initial Release. Completely restructured core.
+* Added Admin Bar HUD and Footer replacements.
+* Added Smart Environment Badges.

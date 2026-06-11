@@ -60,19 +60,19 @@ Yes, absolutely.
 
 ## Screenshots
 
-### WordPress Dashboard Widget.
-
-![Server Info Screenshot 1](https://i.imgur.com/lIMhkFV.png)
-
-### Separate Page for Detailed Server Information.
-
-![Server Info Screenshot 2](https://i.imgur.com/zw5hIib.png)
-
+1. **Overview Dashboard** - Real-time server health and configuration summary.
+2. **Database Information** - Detailed MySQL statistics and connection details.
+3. **WordPress Core** - Important WordPress configurations and debug status.
+4. **PHP Information** - Complete and beautifully styled phpinfo() output.
+5. **Diagnostics & Logs** - Evaluate server health with detailed score impacts.
+6. **More Plugins** - Additional tools to enhance your server experience.
 
 ## Changelog
 
-### 0.0.1
+### 1.0.0
 - Plugin Core Restructured Completely
+- Added Admin Bar HUD and Footer replacements.
+- Added Smart Environment Badges.
 
 ## License
 **Server Info** is GPL v2.0 or later.
