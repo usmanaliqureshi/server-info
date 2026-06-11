@@ -1,6 +1,6 @@
 === Server Info - System Health & Diagnostics Suite ===
 Contributors: usmanaliqureshi
-Tags: admin, dashboard, server info, widget, server status, memory usage, php version
+Tags: admin, dashboard, server info, widget, server status
 Requires at least: 5.0
 Tested up to: 7.0
 Stable tag: 1.0.0
